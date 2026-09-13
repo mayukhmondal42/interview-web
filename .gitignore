@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Env and deps
+.env
+node_modules
+
+# Uploads - heavy images should not go to GitHub
+backend/uploads/
+uploads/
+
+# Logs & build
+logs
+*.log
+dist
+dist-ssr
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
