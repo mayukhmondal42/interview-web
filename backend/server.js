@@ -19,10 +19,15 @@ const app = express();
 // Connect DB
 connectDB();
 
-// CORS - FIXED FOR EXPRESS 5
+// CORS - FIXED FOR PRODUCTION + LOCAL
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:3000",
+      "https://interview-frontend-1lsw.onrender.com",
+      "https://interview-frontend-11sw.onrender.com"
+    ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
