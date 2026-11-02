@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+package-lock.json
+
+# env
+.env
+.env.local
+
+# uploads - user images
+uploads/
+src/uploads/
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
