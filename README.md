@@ -8,7 +8,6 @@ Built with React + Vite on the frontend and Express + MongoDB + Gemini AI on the
 
 - AI Mock Interview with Gemini AI
 - AI-Generated Interview Questions
-- AI Feedback & Scoring After Interview
 - Browse Questions by Category & Difficulty
 - Filter Questions by Topic & Company
 - User Authentication (Login / Signup) with JWT
